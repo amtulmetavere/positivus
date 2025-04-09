@@ -4,7 +4,7 @@ import About from '../components/About';
 import Brands from '../components/Brands';
 import Help from '../components/Help';
 import Cta from '../components/Cta';
-import Cta2 from '../components/Cta2';
+import Cta2 from '../components/cta2';
 import Testimonial from '../components/Testimonial';
 import Teams from '../components/Teams';
 import Projects from "../components/Projects";
