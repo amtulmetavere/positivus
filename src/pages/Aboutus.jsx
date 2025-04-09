@@ -6,7 +6,7 @@ import Cta from "../components/Cta";
 import About from '../components/About';
 
 import { ArrowUpRight } from 'lucide-react';
-import Brands from "../components/brands";
+import Brands from "../components/Brands";
 
 const AboutUs = () => {
   const scrollToTop = () => {
