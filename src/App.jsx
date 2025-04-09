@@ -6,21 +6,21 @@ import ScrollToTopButton from './components/scrolltotop';
 import Whatsapp from './components/Whatsapp';
 import Hero from './components/Hero'; // If needed globally, else lazy-load it too
 
-// Lazy load pages
+// Normal imports for pages
 import Home from './pages/Home';
-const Aboutus = lazy(() => import('./pages/Aboutus'));
-const Contactus = lazy(() => import('./pages/Contactus'));
-const Ourclients = lazy(() => import('./pages/Ourclients'));
-const Ourprojects = lazy(() => import('./pages/Ourprojects'));
-const Services = lazy(() => import('./pages/Services'));
-const ServiceDetail = lazy(() => import('./pages/Servicesdetails'));
-const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
-const TermsAndConditions = lazy(() => import('./pages/TermsAndConditions'));
-const CookiePolicy = lazy(() => import('./pages/CookiePolicy'));
-const NotFound = lazy(() => import('./pages/NotFound'));
-const Blogs = lazy(() => import('./pages/Blogs'));
-const BlogsDetails = lazy(() => import('./pages/Blogsdetails'));
-const Account = lazy(() => import('./pages/Account'));
+import Aboutus from './pages/Aboutus';
+import Contactus from './pages/Contactus';
+import Ourclients from './pages/Ourclients';
+import Ourprojects from './pages/Ourprojects';
+import Services from './pages/Services';
+import ServiceDetail from './pages/Servicesdetails';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
+import CookiePolicy from './pages/CookiePolicy';
+import NotFound from './pages/NotFound';
+import Blogs from './pages/Blogs';
+import BlogsDetails from './pages/Blogsdetails';
+import Account from './pages/Account';
 
 function App() {
   return (
