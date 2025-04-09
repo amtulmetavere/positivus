@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaClock } from 'react-icons/fa';
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaLinkedinIn } from 'react-icons/fa'; 
-import Cta2 from '../components/Cta2';
+import Cta2 from '../components/cta2';
 import { motion } from 'framer-motion'; 
 const contacts = [
   {
