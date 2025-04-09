@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Help from '../components/Help';
 import Footer from '../assets/footer-bg-1.png';
 import Testimonial from '../components/Testimonial';
-import Cta2 from '../components/Cta2';
+import Cta2 from '../components/cta2';
 import { ArrowUpRight } from 'lucide-react';
 
 const Services = () => {
