@@ -36,7 +36,7 @@ function Home() {
   return (
     <div>
     
-    <motion.section
+    <section
         className="relative text-center w-full h-[600px] flex justify-center items-center"
         style={{
           backgroundImage: `url(${gradient})`,
@@ -88,7 +88,7 @@ function Home() {
             </Link>
           </div>
         </ motion.div>
-      </motion.section>
+      </section>
 
     
       <About />
