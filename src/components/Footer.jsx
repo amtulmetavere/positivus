@@ -33,7 +33,7 @@ const Footer = () => {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 text-[#5d5d5d]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-[#5d5d5d]">
              
                 <div className="space-y-4">
                     <motion.img 
