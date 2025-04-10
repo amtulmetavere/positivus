@@ -81,6 +81,7 @@ loading="lazy"
               </div></div>
               <p className="leading-relaxed w-[90%] text-start">
                  {service.paragraph}
+                   </p>
             </div>
           </div>
         </div>
