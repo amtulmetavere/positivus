@@ -63,7 +63,7 @@ const ServicesDetails = () => {
           <div className="mx-auto flex flex-wrap gap-5 justify-center">
             <img
 loading="lazy"
-              alt="ecommerce"
+              alt={service.title}
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded-lg border-[#e3b843] border-2"
               src={service.img}
             />
@@ -106,7 +106,7 @@ loading="lazy"
                 <div className="flex relative h-full">
                   <img
 loading="lazy"
-                    alt="gallery"
+                    alt={project.title}
                    
                     className="absolute inset-0
                     h-full object-cover object-center"
