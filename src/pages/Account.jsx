@@ -80,7 +80,7 @@ const Account = () => {
         <div className="relative w-full md:w-1/2 h-full overflow-hidden bg-black/90">
           {/* Login Form */}
           <div
-            className={`absolute top-0 left-0 w-full h-full p-10 transition-all duration-700 ease-in-out ${
+            className={`absolute top-0 left-0 w-full h-full p-10 transition-all duration-700 ease-in-out flex flex-col items-center ${
               isRegister ? 'translate-x-full opacity-0' : 'translate-x-0 opacity-100'
             }`}
           >
@@ -110,7 +110,7 @@ const Account = () => {
 
           {/* Register Form */}
           <div
-            className={`absolute top-0 left-0 w-full h-full p-10 transition-all duration-700 ease-in-out ${
+            className={`absolute top-0 left-0 w-full h-full p-10 transition-all duration-700 ease-in-out flex flex-col items-center ${
               isRegister ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
             }`}
           >
