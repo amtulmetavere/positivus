@@ -9,31 +9,37 @@ const servicesData = {
             img: Footer,
           title: "Web Development",
           description: "We craft responsive websites with modern technologies like React, Next.js, and Tailwind CSS.",
+            paragraph: "At Web Octane, we understand that your website is the face of your business. Our Web Development services are designed to give you a strong online presence that works for you. Whether you’re just starting out or looking to improve your existing site, we’re here to help.",
         },
         socialmedia: {
             img: Footer,
           title: "Social Media",
           description: "We build strong brand presence through strategic social media campaigns and content creation.",
+           paragraph: "Our Social Media services at Web Octane are focused on creating meaningful engagement between your brand and your audience. From content planning to campaign execution, we ensure your business maintains a consistent and impactful presence across all platforms. Let us help you grow your following and turn engagement into conversions.",  
         },
         searchengineoptimization: {
             img: Footer,
           title: "Search Engine Optimization",
           description: "Boost your search engine rankings with our expert SEO strategies and technical audits.",
+         paragraph: "With Web Octane’s SEO services, your business won't get lost in the crowd. We perform comprehensive audits, keyword research, and on-page/off-page optimization to ensure your site ranks higher and drives organic traffic. Our strategies are designed to build long-term visibility and credibility with search engines.",
         },
         payperclick: {
             img: Footer,
           title: "Pay-Per-Click",
           description: "Maximize your ROI with targeted PPC advertising on Google Ads, Facebook, and more.",
+         paragraph: "At Web Octane, our Pay-Per-Click advertising experts craft data-driven campaigns that deliver results. Whether you're targeting new customers or retargeting previous visitors, we fine-tune every aspect of your ads to ensure the highest return on investment. We manage campaigns across Google Ads, Facebook, Instagram, and more.",
         },
         videoanddigitalcontent: {
             img: Footer,
           title: "Video and Digital Content",
           description: "We produce engaging video and digital content to capture your audience’s attention.",
+         paragraph: "Content is king — and video rules the digital realm. At Web Octane, we create high-quality, engaging video and digital content tailored to your brand’s voice and audience. From promotional videos to explainer animations, our content captivates viewers and drives action across all digital platforms.",
         },
         possystem: {
             img: Footer,
           title: "POS System",
           description: "We provide custom POS solutions tailored to streamline your business operations.",
+         paragraph: "Web Octane’s custom POS (Point of Sale) solutions are built to make your business operations faster, smarter, and more efficient. Whether you run a retail store, café, or service-based business, our systems are tailored to your workflow, helping you manage sales, inventory, and customer data with ease.",
         }
       
       
@@ -74,8 +80,7 @@ loading="lazy"
                 <div className="w-[50%] h-1 rounded-full bg-[#e3b843] inline-flex mb-4"></div>
               </div></div>
               <p className="leading-relaxed w-[90%] text-start">
-                At Web Octane, we understand that your website is the face of your business. Our Web Development services are designed to give you a strong online presence that works for you. Whether you’re just starting out or looking to improve your existing site, we’re here to help.
-              </p>
+                 {service.paragraph}
             </div>
           </div>
         </div>
