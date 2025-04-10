@@ -23,7 +23,7 @@ const About = () => {
   ], []);
 
   return (
-    <section className="text-[#5d5d5d] body-font overflow-hidden">
+    <section className="text-gray body-font overflow-hidden">
       <div className="container px-4 py-14 mx-auto">
         <motion.div
           className="lg:w-4/5 mx-auto flex flex-wrap justify-center"
