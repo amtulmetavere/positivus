@@ -52,7 +52,7 @@ function App() {
             <Route path="/cookiepolicy" element={<CookiePolicy />} />
 
             {/* Catch-all for 404 */}
-           
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
         <ScrollToTopButton />
