@@ -58,7 +58,7 @@ const ServicesDetails = () => {
 
   return (
     <div className="min-h-screen p-10 bg-black text-white text-center">
-      <section className="text-gray-600 body-font overflow-hidden">
+      <section className="text-gray-400 body-font overflow-hidden">
         <div className="container px-5 py-24 mx-auto">
           <div className="mx-auto flex flex-wrap gap-5 justify-center">
             <img
